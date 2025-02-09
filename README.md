@@ -22,7 +22,7 @@ Add the these lines to your `theme.toml` configuration file to use it:
 
 ```toml
 [flavor]
-use = "everforest-medium"
+dark = "everforest-medium"
 ```
 
 ## 📜 License
