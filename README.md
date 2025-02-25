@@ -25,6 +25,13 @@ Add the these lines to your `theme.toml` configuration file to use it:
 dark = "everforest-medium"
 ```
 
+For Yazi versions before 0.4:
+
+```toml
+[flavor]
+use = "everforest-medium"
+```
+
 ## 📜 License
 
 The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
