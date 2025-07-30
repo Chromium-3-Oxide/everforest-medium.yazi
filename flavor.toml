@@ -57,12 +57,12 @@ normal_main = { fg = "#3d484d", bg = "#a7c080", bold = true }
 normal_alt  = { fg = "#7fbbb3", bg = "#4f585e", bold = true }
 
 # Select mode
-select_main = { fg = "#3d484d", bg = "#7fbbb3", bold = true }
-select_alt  = { fg = "#3d484d", bg = "#7fbbb3", bold = true }
+select_main = { fg = "#3d484d", bg = "#e67e80", bold = true }
+select_alt  = { fg = "#7fbbb3", bg = "#4f585e", bold = true }
 
 # Unset mode
-unset_main = { fg = "#3d484d", bg = "#e67e80", bold = true }
-unset_alt  = { fg = "#3d484d", bg = "#e67e80", bold = true }
+unset_main = { fg = "#3d484d", bg = "#7fbbb3", bold = true }
+unset_alt  = { fg = "#7fbbb3", bg = "#4f585e", bold = true }
 
 # : }}}
 
