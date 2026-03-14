@@ -75,11 +75,11 @@ sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
 # Permissions
-permissions_s = { fg = "#2d353b" }
-permissions_t = { fg = "#a7c080" }
-permissions_r = { fg = "#dbbc7f" }
-permissions_w = { fg = "#e67e80" }
-permissions_x = { fg = "#7fbbb3" }
+perm_sep   = { fg = "#2d353b" }
+perm_type  = { fg = "#a7c080" }
+perm_read  = { fg = "#dbbc7f" }
+perm_write = { fg = "#e67e80" }
+perm_exec  = { fg = "#7fbbb3" }
 
 # Progress
 progress_label  = { bold = true }
@@ -221,7 +221,13 @@ rules = [
 	# Documents
 	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#7fbbb3" },
 
+	# Virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "#4f585e" },
+
 	# Fallback
+	{ url = "*", fg = "#83c092" },
+	{ url = "*/", fg = "#a7c080" },
+	# Legacy (for older yazi versions)
 	{ name = "*", fg = "#83c092" },
 	{ name = "*/", fg = "#a7c080" }
 ]
