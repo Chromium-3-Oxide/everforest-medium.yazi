@@ -30,8 +30,8 @@ border_style  = { fg = "#4f585e" }
 # : Tabs {{{
 
 [tabs]
-active   = { fg = "#a7c080", bg = "#4f585e", bold = true }
-inactive = { fg = "#7fbbb3", bg = "#3d484d" }
+active   = { fg = "#343f44", bg = "#a7c080", bold = true }
+inactive = { fg = "#a7c080", bg = "#3d484d" }
 
 # : }}}
 
@@ -138,8 +138,8 @@ footer  = { fg = "#2d353b", bg = "#d3c6aa" }
 # : Spotter {{{
 
 [spot]
-border = { fg = "#7fbbb3" }
-title  = { fg = "#7fbbb3" }
+border   = { fg = "#7fbbb3" }
+title    = { fg = "#7fbbb3" }
 tbl_col  = { fg = "#7fbbb3" }
 tbl_cell = { fg = "#dbbc7f", reversed = true }
 
