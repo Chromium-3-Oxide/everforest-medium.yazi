@@ -174,6 +174,9 @@ rules = [
 	# Fallback
 	{ url = "*", fg = "#83c092" },
 	{ url = "*/", fg = "#a7c080" },
+	# Legacy (for older yazi versions)
+	{ name = "*", fg = "#83c092" },
+	{ name = "*/", fg = "#a7c080" },
 ]
 
 # : }}}
